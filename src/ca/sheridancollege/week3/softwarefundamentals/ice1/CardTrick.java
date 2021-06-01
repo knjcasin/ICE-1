@@ -76,6 +76,11 @@ public class CardTrick {
         else{
             System.out.println("\nYour card is not in the magic hand.");
         }
+        
+        Card luckyCard = new Card();
+        luckyCard.setValue(7);
+        luckyCard.setSuit(Card.SUITS[2]);
+        
     }
     
 }
